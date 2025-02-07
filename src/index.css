@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('/assets/fonts/static/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('/assets/fonts/static/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('/assets/fonts/static/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url('/assets/fonts/static/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+  }
+  
+  .bold{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+  }
