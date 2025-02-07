@@ -197,7 +197,7 @@ export default function MortgageCalculator() {
               className="w-[50%] bg-[#D9DB30] text-black p-3 rounded-full mt-4 flex items-center justify-center"
             >
               <span className="mr-2">
-                <img src="/assets/images/icon-calculator.svg" className="w-5" />
+                <img src="/assets/images/icon-calculator.svg" alt="calculator" className="w-5" />
               </span>{" "}
               Calculate Repayments
             </button>
@@ -208,7 +208,7 @@ export default function MortgageCalculator() {
             // 🔹 Default state (before calculating repayments)
             <>
               <div className="flex justify-center items-center">
-                <img src="/assets/images/illustration-empty.svg" width={150} />
+                <img src="/assets/images/illustration-empty.svg" alt="results image" width={150} />
               </div>
               <h2 className="text-2xl font-semibold mb-4">
                 Results shown here
